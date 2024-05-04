@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 function ProjectCard(props) {
     return (
         <div>
