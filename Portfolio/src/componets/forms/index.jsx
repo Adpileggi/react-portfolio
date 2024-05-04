@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { validateEmail } from "../utils/helpers";
+import { validateEmail } from "../../utils/helpers";
 
-function Contact() {
+function Form() {
     const [ email, setEmail ]  = useState('');
     const [ username, setUsername ] = useState('');
     const [ message, setMessage ] = useState('');
@@ -14,7 +14,7 @@ function Contact() {
 
         if (inputName === 'email') {
             setEmail(inputValue)
-        } else if (inputName === 'username') {
+        } else if (inputName === 'name') {
             setUsername(inputValue)
         } else {
             setMessage(inputValue)
@@ -77,4 +77,4 @@ function Contact() {
     );
 }
 
-export default Contact
+export default Form
