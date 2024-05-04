@@ -4,12 +4,12 @@ function ProjectCard(props) {
             <h1>Portfolio</h1>
             {props.projects.map(project => {
                 return(
-                <div className="card" style="width: 18rem;" key={project.id}>
-                <img src={project.img} className="card-img-top" alt={project.alt} key={project.id}></img>
+                <div className="card" key={project.id}>
+                <img src={project.img} className="card-img-top" alt={project.alt}></img>
                 <div className="card-body">
                     <h5 key={project.id}>{project.name}</h5>
-                    <a href={project.repoUrl} className="btn btn-primary" key={project.id}>Vist the Repo!</a>
-                    <a href={project.deployedUrl} className="btn btn-primary" key={project.id}>Visit this page!</a>
+                    <a href={project.repoUrl} className="btn btn-primary">Vist the Repo!</a>
+                    <a href={project.deployedUrl} className="btn btn-primary">Visit this page!</a>
                 </div>
                 </div>
             )})}
