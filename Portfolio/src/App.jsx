@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom"
 import Nav from './componets/NavTabs'
+import Footer from "./componets/Footer";
 
 function App() {
 return (
@@ -8,6 +9,9 @@ return (
     <main className="mx-3">
       <Outlet />
     </main>
+    <footer>
+      <Footer />
+    </footer>
   </>
   );
 }
