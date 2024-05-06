@@ -2,7 +2,11 @@ function Footer() {
 
     return (
         <div>
-            <p>this is the footer</p>
+            <ul className="nav nav-underline">
+                <li className="nav-item">
+                <a className="nav-link" href="mailto: adpileggi@gmail.com">Send me an Email</a>
+                </li>
+            </ul>
         </div>
     );
 }
