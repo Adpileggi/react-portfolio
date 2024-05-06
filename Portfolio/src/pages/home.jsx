@@ -1,18 +1,23 @@
-// const styles = {
-//     background: '#5AA9E6'
-// }
+const styles = {
+  padding: "10px",
+};
 
 export default function Home() {
   return (
     <div className="row">
       <div>
-        <h1 className="name">About Me</h1>
+        <h1 className="name" style={styles}>
+          About Me
+        </h1>
       </div>
       <div className="col text-center align-self-center">
-        My name is Anthony Pileggi. I am a fullstack JavaScript developer located in the
-        Greater Philadelphia area. I earned a certificate in fullstack web
-        development for the University of Pennslyvaina. My background working in
-        hospitality provides me a unique perspecitve to resolve
+        <p>
+          My name is Anthony Pileggi. I am a fullstack developer
+          located in the Greater Philadelphia area. I earned a certificate in
+          fullstack web development for the University of Pennslyvaina. My
+          background working in hospitality provides me a unique perspecitve to
+          resolve solve complex problems.
+        </p>
       </div>
 
       <div className="col">
