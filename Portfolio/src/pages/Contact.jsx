@@ -40,6 +40,7 @@ function Contact() {
     };
 
     return (
+        <div>
         <div className="container text-center">
             <h1>Leave a message!</h1>
             <form className='form' onSubmit={handleFormSubmit}>
@@ -78,6 +79,7 @@ function Contact() {
                     <p className="error-text">{errorMessage}</p>
                 </div>
             )}
+        </div>
         </div>
     );
 }

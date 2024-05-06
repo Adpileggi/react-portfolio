@@ -7,7 +7,7 @@ function App() {
 return (
   <>
     <Nav />
-    <main className="mx-3 blue-background">
+    <main className="mx-3">
       <Outlet />
     </main>
     <footer>
