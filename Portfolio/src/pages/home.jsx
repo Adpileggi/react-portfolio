@@ -6,10 +6,10 @@ export default function Home() {
   return (
     <div className="row">
       <div>
-        <h1>Anthony Pileggi</h1>
+        <h1 className="name">About Me</h1>
       </div>
       <div className="col text-center align-self-center">
-        Anthony Pileggi is a fullstack JavaScript developer located in the
+        My name is Anthony Pileggi. I am a fullstack JavaScript developer located in the
         Greater Philadelphia area. I earned a certificate in fullstack web
         development for the University of Pennslyvaina. My background working in
         hospitality provides me a unique perspecitve to resolve
