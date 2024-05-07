@@ -2,7 +2,7 @@ export default function Resume() {
     return (
         <div>
             <h1>Resume</h1>
-            <a href='/pileggi-resume-2024.pdf'>View my resume here!</a>
+            <a href='/pileggi-resume-2024.pdf' className="nav-link">View my resume here!</a>
             <br></br>
             <h3>Skills</h3>
             <ul>

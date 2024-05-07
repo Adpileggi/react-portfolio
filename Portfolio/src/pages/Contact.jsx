@@ -40,22 +40,27 @@ function Contact() {
     };
 
     return (
+        <div>
         <div className="container text-center">
             <h1>Leave a message!</h1>
             <form className='form' onSubmit={handleFormSubmit}>
+                
                 <input 
                     value={email}
                     name='email'
                     onChange={hadleImputChange}
                     type="email"
                     placeholder="email"
+                    className="form-control"
                 />
+                
                 <input 
                     value={username}
                     name='username'
                     onChange={hadleImputChange}
                     type="text"
                     placeholder="username"
+                    className="form-control"
                 />
                 <textarea
                     value={message}
@@ -63,8 +68,9 @@ function Contact() {
                     onChange={hadleImputChange}
                     type="text"
                     placeholder="message"
+                    className="form-control"
                 ></textarea>
-                <button type="submit">
+                <button className="btn fw-semibold fs-5" type="submit">
                 Submit
                 </button> 
             </form>
@@ -73,6 +79,7 @@ function Contact() {
                     <p className="error-text">{errorMessage}</p>
                 </div>
             )}
+        </div>
         </div>
     );
 }
