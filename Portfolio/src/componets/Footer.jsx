@@ -1,7 +1,7 @@
 function Footer() {
 
     return (
-        <div className=""> 
+        <div className="footer"> 
             <nav className="navbar justify-content-start">
             <ul className="nav nav-underline">
                 <li className="nav-item">
