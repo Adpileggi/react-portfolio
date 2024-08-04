@@ -12,11 +12,11 @@ export default function Home() {
       </div>
       <div className="col text-center align-self-center">
         <p>
-          My name is Anthony Pileggi. I am a fullstack developer
-          located in the Greater Philadelphia area. I earned a certificate in
-          fullstack web development for the University of Pennslyvaina. My
-          background working in hospitality provides me a unique perspecitve to
-          resolve solve complex problems.
+          My name is Anthony Pileggi. I am a fullstack developer located in the
+          Greater Philadelphia area. I earned a certificate in fullstack web
+          development for the University of Pennslyvaina. My background working
+          in hospitality grants me a unique perspective by blending technical
+          skills with a deep understanding of customer experience.
         </p>
       </div>
 

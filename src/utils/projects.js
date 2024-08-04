@@ -10,7 +10,7 @@ const projects = [
     {
         name: 'Pizzateca Romana',
         repoUrl: 'https://github.com/SergMalyshka/Pizzoteca-Romana',
-        deployedUrl: 'https://stormy-journey-39722-b2e17c23bcea.herokuapp.com/',
+        deployedUrl: 'https://stormy-journey-pizzatecca-pos-e79208e5a885.herokuapp.com',
         img: '/pizzatecca-romana.jpg',
         alt: 'A website with an italian flag background with the title "Welcome to Pizzateca Romana"',
         id: 2
